@@ -11,7 +11,7 @@ body {
   height: 100vh;
   @include flex-center(column);
   line-height: 1.3;
-  background-image: url("/images/bg-pattern.svg");
+  background-image: url("../images/bg-pattern.svg");
   background-repeat: no-repeat;
   background-size: 100% 60%;
   background-position: top;
