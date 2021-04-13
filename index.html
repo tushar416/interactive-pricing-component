@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <div class="head">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required.</p>
+    </div>
+    <main>
+      <section class="pricing_container">
+        <div class="top">
+          <div class="price_selection">
+            <p class="preview"><span class="preview_span"></span> Pageviews</p>
+            <p class="price_selected">
+              <span class="monthly_price">$</span> /month
+            </p>
+
+            <div class="slider_div">
+              <input
+                type="range"
+                min="1"
+                max="5"
+                value="3"
+                name="range"
+                id="slider"
+              />
+            </div>
+          </div>
+          <div class="billing">
+            <p>Monthly Billing</p>
+            <input
+              type="range"
+              name="switch"
+              min="0"
+              max="1"
+              value="0"
+              id="btn"
+            />
+            <p>Yearly Billing</p>
+            <p class="discount">25% <span>discount</span></p>
+          </div>
+        </div>
+        <div class="bottom">
+          <ul>
+            <li>
+              <img src="images/icon-check.svg" alt="" /> Unlimited websites
+            </li>
+            <li>
+              <img src="images/icon-check.svg" alt="" /> 100% data ownership
+            </li>
+            <li><img src="images/icon-check.svg" alt="" /> Email reports</li>
+          </ul>
+          <a href="" class="btn">Start my trial</a>
+        </div>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/tushar416">Tushar Mehra</a>.
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
